@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("../datasets/iris.csv")
 print(df.head())
 
 # Features and target
