@@ -47,7 +47,6 @@ for kernel in ["linear", "poly", "rbf"]:
     print(f"Accuracy ({kernel}): ", accuracy)
 
 
-
 # Visualization
 plt.bar(["linear", "poly", "rbf"], accuracies, width=0.5)
 plt.xlabel("Kernel Types")
