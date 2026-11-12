@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score
 
-df = pd.read_csv("datasets/breast_cancer_wisconsin.csv")
+df = pd.read_csv("../datasets/breast_cancer_wisconsin.csv")
 df = df.dropna()
 
 print("Shape: ", df.shape)
